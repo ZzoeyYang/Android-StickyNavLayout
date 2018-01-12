@@ -1,0 +1,47 @@
+<online.sniper.widget.refresh.CoolRefreshView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refresh_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.stickynavlayout.view.StickyNavLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/id_stickyNavLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@id/id_stickynavlayout_topview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4400ff00">
+
+            <com.zhy.stickynavlayout.view.BannerView
+                android:id="@+id/banner_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/banner_default" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@id/id_stickynavlayout_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <online.sniper.widget.indicator.SlidingTabPageIndicator
+                android:id="@+id/id_stickynavlayout_indicator"
+                style="@style/SlidingTabIndicator"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </com.zhy.stickynavlayout.view.StickyNavLayout>
+
+</online.sniper.widget.refresh.CoolRefreshView>

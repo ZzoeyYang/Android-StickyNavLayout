@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ NOTICE
+  ~
+  ~ This is the copyright work of The MITRE Corporation, and was produced for
+  ~ the U. S. Government under Contract Number DTFAWA-10-C-00080, and is subject
+  ~ to Federal Aviation Administration Acquisition Management System Clause
+  ~ 3.5-13, Rights In Data-General, Alt. III and Alt. IV (Oct. 1996).  No other
+  ~ use other than that granted to the U. S. Government, or to those acting on
+  ~ behalf of the U. S. Government, under that Clause is authorized without the
+  ~ express written permission of The MITRE Corporation. For further information,
+  ~ please contact The MITRE Corporation, Contracts Office,7515 Colshire Drive,
+  ~ McLean, VA  22102-7539, (703) 983-6000.
+  ~
+  ~ Approved for Public Release; Distribution Unlimited. Case Number 14-4045
+  -->
+
+<resources>
+    <declare-styleable name="SegmentedControlView">
+        <attr name="scv_selectedColor" format="reference|color" />
+        <attr name="scv_unselectedColor" format="reference|color" />
+        <attr name="scv_selectedTextColor" format="reference|color" />
+        <attr name="scv_unselectedTextColor" format="reference|color" />
+        <attr name="scv_textSize" format="reference|dimension" />
+        <attr name="scv_leftRightPadding" format="reference|dimension" />
+        <attr name="scv_topBottomPadding" format="reference|dimension" />
+        <attr name="scv_radius" format="reference|dimension" />
+        <attr name="scv_strokeWidth" format="reference|dimension" />
+        <attr name="scv_stretch" format="boolean" />
+        <attr name="scv_equalWidth" format="boolean" />
+        <attr name="scv_defaultSelection" format="integer" />
+        <attr name="scv_items" format="reference" />
+        <attr name="scv_values" format="reference" />
+    </declare-styleable>
+</resources>

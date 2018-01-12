@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="fillx">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="filly">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="fillall">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!--选择地区的dialog对话框相关配置-->
+    <style name="Dialog"></style>
+
+    <style name="Animation"></style>
+
+    <style name="Animation.Dialog"></style>
+
+    <style name="Animation.Dialog.Bottom">
+        <item name="android:windowEnterAnimation">@anim/slide_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom_out</item>
+    </style>
+
+    <style name="MultiStatusView">
+        <item name="loadingViewLayout">@layout/multi_status_loading_view</item>
+        <item name="emptyViewLayout">@layout/multi_status_empty_view</item>
+        <item name="errorViewLayout">@layout/multi_status_error_view</item>
+        <item name="networkErrorViewLayout">@layout/multi_status_network_error_view</item>
+    </style>
+
+    <style name="MultiStatusView.Top">
+        <item name="loadingViewLayout">@layout/multi_status_loading_view_top</item>
+        <item name="emptyViewLayout">@layout/multi_status_empty_view_top</item>
+        <item name="errorViewLayout">@layout/multi_status_error_view_top</item>
+        <item name="networkErrorViewLayout">@layout/multi_status_network_error_view_top</item>
+    </style>
+
+
+</resources>

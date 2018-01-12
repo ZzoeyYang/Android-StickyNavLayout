@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="magicbox_header" type="id"/>
+    <item name="magicbox_content" type="id"/>
+    <item name="content_view" type="id"></item>
+    <item name="error_view" type="id"></item>
+    <item name="no_net_view" type="id"></item>
+    <item name="empty_view" type="id"></item>
+    <item name="loading_view" type="id"></item>
+    <item name="page_adapter_recycler_type" type="id"/>
+</resources>

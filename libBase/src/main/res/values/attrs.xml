@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwitchButton">
+        <attr name="ThumbDrawable" format="reference" />
+        <attr name="ThumbColor" format="color|reference" />
+        <attr name="ThumbMargin" format="dimension|reference" />
+        <attr name="ThumbMarginTop" format="dimension|reference" />
+        <attr name="ThumbMarginBottom" format="dimension|reference" />
+        <attr name="ThumbMarginLeft" format="dimension|reference" />
+        <attr name="ThumbMarginRight" format="dimension|reference" />
+        <attr name="ThumbWidth" format="dimension|reference" />
+        <attr name="ThumbHeight" format="dimension|reference" />
+        <attr name="ThumbRadius" format="dimension|reference" />
+        <attr name="BackRadius" format="dimension|reference" />
+        <attr name="BackDrawable" format="reference" />
+        <attr name="BackColor" format="color|reference" />
+        <attr name="FadeBack" format="boolean" />
+        <attr name="BackMeasureRatio" format="float" />
+        <attr name="AnimationDuration" format="integer" />
+        <attr name="TintColor" format="color|reference" />
+        <attr name="TextOn" format="string" />
+        <attr name="TextOff" format="string" />
+        <attr name="TextMarginH" format="dimension" />
+        <attr name="AutoAdjustTextPosition" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiStatusView">
+        <attr name="loadingViewLayout" format="reference" />
+        <attr name="emptyViewLayout" format="reference" />
+        <attr name="errorViewLayout" format="reference" />
+        <attr name="networkErrorViewLayout" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BigImageView">
+        <attr name="scaleType" format="enum">
+            <enum name="fitAuto" value="1" />
+            <enum name="fitCenter" value="2" />
+        </attr>
+        <attr name="animateScaleType" format="boolean" />
+        <attr name="maximumScale" format="float" />
+        <attr name="minimumScale" format="float" />
+        <attr name="scale" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+    <declare-styleable name="SquareView">
+        <attr name="baseEdge" format="enum">
+            <enum name="width" value="0" />
+            <enum name="height" value="1" />
+            <enum name="min" value="2" />
+            <enum name="max" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TabIndicator">
+        <attr name="tab_indicator_background" format="reference" />
+        <attr name="tab_indicator_textcolor" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TextWithDrawable">
+        <attr name="txt" format="string" />
+        <attr name="txt_color" format="color" />
+        <attr name="txt_pressed_color" format="color" />
+        <attr name="txt_selected_color" format="color" />
+        <attr name="txt_unenabled_color" format="color" />
+        <attr name="txt_size" format="dimension" />
+        <attr name="direct" format="integer" />
+        <attr name="drawable" format="integer" />
+        <attr name="selected_drawable" format="integer" />
+        <attr name="pressed_drawable" format="integer" />
+        <attr name="unenable_drawable" format="integer" />
+        <attr name="drawable_padding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="IndeterminateCheckable">
+        <!-- Additional drawable state. It is merged into the parent CompoundButton states -->
+        <attr name="state_indeterminate" format="boolean" />
+        <!-- Indeterminate state attribute for the view -->
+        <attr name="indeterminate" format="boolean" />
+        <attr name="android:button"/>
+    </declare-styleable>
+
+    <declare-styleable name="MaxSize">
+        <attr name="maxWidth" format="dimension" />
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RCRelativeLayout">
+        <!--圆形-->
+        <attr name="round_as_circle" format="boolean"/>
+        <!--全部圆角半径-->
+        <attr name="round_corner" format="integer|dimension"/>
+        <!--针对各个角的半径-->
+        <attr name="round_corner_top_left" format="integer|dimension"/>
+        <attr name="round_corner_top_right" format="integer|dimension"/>
+        <attr name="round_corner_bottom_left" format="integer|dimension"/>
+        <attr name="round_corner_bottom_right" format="integer|dimension"/>
+
+        <!--描边颜色／半径-->
+        <attr name="stroke_color" format="color|reference"/>
+        <attr name="stroke_width" format="integer|dimension"/>
+    </declare-styleable>
+
+    <attr name="backgroundColor" format="color" />
+
+    <declare-styleable name="CircleProgressBar">
+        <!-- 环的宽度 -->
+        <attr name="circleWidth" format="dimension" />
+        <!-- 环的背景色 -->
+        <attr name="circleBackgroundColor" format="color" />
+        <!-- 环的前景色 -->
+        <attr name="circleForegroundColor" format="color" />
+        <!-- 背景色 -->
+        <attr name="backgroundColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+        <!-- 环的前景色 -->
+        <attr name="progressColor" format="color" />
+        <!-- 背景色 -->
+        <attr name="backgroundColor" />
+    </declare-styleable>
+</resources>
